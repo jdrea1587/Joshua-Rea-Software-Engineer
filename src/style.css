@@ -6,6 +6,10 @@ section {
     background-color: white;
 }
 
+a {
+  color: white;  
+}
+
 .tipper {
     background-color: #1c1d25;
     height: 100vh;
@@ -36,7 +40,6 @@ ul {
 li {
     width: 200px;
     text-decoration: none;
-    color: white;
 }
 
 h1 {

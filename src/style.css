@@ -33,13 +33,10 @@ ul {
     font-size: 30px;
 }
 
-ul.show {
-    display: block;
-}
-
 li {
     width: 200px;
     text-decoration: none;
+    color: white;
 }
 
 h1 {
@@ -184,9 +181,28 @@ a{
         background-color: transparent;
         color: white;
         font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
 }
 
-    ul{
+    ul {
+        display: none;
+        background-color: #222731;
+        margin: 0px;
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column-reverse;
+        background-color:  #222731;
+    }
+
+    .logo {
         display: none;
     }
 }
